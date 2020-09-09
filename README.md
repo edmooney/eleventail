@@ -6,7 +6,7 @@ A project scaffold for quickly starting a site build with:
 - [Tailwindcss](https://tailwindcss.com) for a utility first CSS workflow
 - [PurgeCSS](https://www.purgecss.com/) for optimizing CSS output
 - [UglifyJS](https://www.npmjs.com/package/uglify-js) for a simple JS build pipeline
-- [Fleek CLI](https://docs.fleek.co/storage/fleek-storage-js/)
+- [Fleek CLI](https://docs.fleek.co/storage/fleek-storage-js/) for pushing to the Dweb
 
 
 
