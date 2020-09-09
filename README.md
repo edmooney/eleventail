@@ -6,6 +6,7 @@ A project scaffold for quickly starting a site build with:
 - [Tailwindcss](https://tailwindcss.com) for a utility first CSS workflow
 - [PurgeCSS](https://www.purgecss.com/) for optimizing CSS output
 - [UglifyJS](https://www.npmjs.com/package/uglify-js) for a simple JS build pipeline
+- [Netlify](https://www.npmjs.com/package/netlify-cli) for local viewing
 - [Fleek CLI](https://docs.fleek.co/storage/fleek-storage-js/) for pushing to the Dweb
 
 
@@ -18,6 +19,7 @@ A project scaffold for quickly starting a site build with:
 ## Prerequisites
 
 - [Node and NPM](https://nodejs.org/)
+- [Netlify]https://www.npmjs.com/package/netlify-cli)
 - [Fleek CLI](https://www.npmjs.com/package/@fleekhq/fleek-cli)
 
 
@@ -27,6 +29,10 @@ A project scaffold for quickly starting a site build with:
 
 # install Netlify CLI globally
 npm install -g @fleekhq/fleek-cli
+
+# install netlify or local viewing
+[Netlify]https://www.npmjs.com/package/netlify-cli)
+
 
 # login to fleek
 fleek login
