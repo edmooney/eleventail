@@ -7,10 +7,6 @@ A project scaffold for quickly starting a site build with:
 - [PurgeCSS](https://www.purgecss.com/) for optimizing CSS output
 - [UglifyJS](https://www.npmjs.com/package/uglify-js) for a simple JS build pipeline
 - [Netlify](https://www.npmjs.com/package/netlify-cli) for local viewing
-- [Fleek CLI](https://docs.fleek.co/storage/fleek-storage-js/) for pushing to the Dweb
-
-
-
 
 
 ## Example
@@ -20,39 +16,19 @@ A project scaffold for quickly starting a site build with:
 
 - [Node and NPM](https://nodejs.org/)
 - [Netlify](https://www.npmjs.com/package/netlify-cli)
-- [Fleek CLI](https://www.npmjs.com/package/@fleekhq/fleek-cli)
 
 
 ## Prereqs
 
 ```bash
 
-# install Netlify CLI globally
-npm install -g @fleekhq/fleek-cli
-
 # install netlify or local viewing
 npm install npm install netlify-cli -g
-
-
-# login to fleek
-fleek login
-
-# get the api creds
-fleek whoami
-
-# install the aws-sdk requirement
-npm install --save aws-sdk
 
 # set up the storge
 npm init
 
-# s3 compatible storage
-npm install --save aws-sdk
-
-# get the output of the above and follow along here: https://www.npmjs.com/package/@fleekhq/fleek-cli
-
 ```
-
 
 ## Previewing the production build
 
@@ -76,6 +52,8 @@ While running/developing locally, the `npm run start` command will recompile the
 A small number of bespoke CSS rules are provided for efficiency of repeated or global classes. These reside in `src/site/_includes/css/tailwind.css`
 
 
-## Just clone and go
+## When ready deploy to fleek.io
 
-You can also get started with your own copy of this site cloned to your GitHub account and deployed to [Fleek.co](http://fleek.co?c=edmooney.dev) 
+Set up your fleek deployment like so:
+
+
