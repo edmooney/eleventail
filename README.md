@@ -56,4 +56,6 @@ A small number of bespoke CSS rules are provided for efficiency of repeated or g
 
 Set up your fleek deployment like so:
 
+![fleek-deploy](fleek-deploy.png)
+
 
