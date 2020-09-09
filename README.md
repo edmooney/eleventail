@@ -34,6 +34,9 @@ fleek login
 # get the api creds
 fleek whoami
 
+# install the aws-sdk requirement
+npm install --save aws-sdk
+
 # set up the storge
 npm init
 
