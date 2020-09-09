@@ -8,10 +8,6 @@ A project scaffold for quickly starting a site build with:
 - [UglifyJS](https://www.npmjs.com/package/uglify-js) for a simple JS build pipeline
 - [Netlify](https://www.npmjs.com/package/netlify-cli) for local viewing
 
-
-## Example
-@todo
-
 ## Prerequisites
 
 - [Node and NPM](https://nodejs.org/)
@@ -54,7 +50,7 @@ While running/developing locally, the `npm run start` command will recompile the
 A small number of bespoke CSS rules are provided for efficiency of repeated or global classes. These reside in `src/site/_includes/css/tailwind.css`
 
 
-## When ready deploy to fleek.io
+## When ready you can deploy to the Dweb @ fleek.io
 
 Allow authorization to github in your account and add the FleekyElevenTail repo.
 
