@@ -6,23 +6,19 @@ A project scaffold for quickly starting a site build with:
 - [Tailwindcss](https://tailwindcss.com) for a utility first CSS workflow
 - [PurgeCSS](https://www.purgecss.com/) for optimizing CSS output
 - [UglifyJS](https://www.npmjs.com/package/uglify-js) for a simple JS build pipeline
-- [Netlify CLI](https://www.npmjs.com/package/netlify-cli) for Netlify dev pipeline and local replication of prod environment
+- [Fleek CLI](https://docs.fleek.co/storage/fleek-storage-js/)
 
 
-![Deploy to Netlify](eleventail-screenshot.jpg)
+
 
 
 ## Example
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4151ca40-1788-4959-9367-38ad71d11492/deploy-status)](https://app.netlify.com/sites/eleventail/deploys)
-
-https://eleventail.netlify.com
-
+@todo
 
 ## Prerequisites
 
 - [Node and NPM](https://nodejs.org/)
-- [Netlify CLI](https://www.npmjs.com/package/netlify-cli)
+- [Fleek CLI](https://www.npmjs.com/package/@fleekhq/fleek-cli)
 
 
 ## Running locally
@@ -30,13 +26,19 @@ https://eleventail.netlify.com
 ```bash
 
 # install Netlify CLI globally
-npm install netlify-cli -g
+npm install -g @fleekhq/fleek-cli
 
-# install the project dependencies
-npm install
+# login to fleek
+fleek login
 
-# run the build and server locally
-netlify dev
+# set up the storge
+npm init
+
+# s3 compatible storage
+npm install --save aws-sdk
+
+# get the output of the above and follow along here: https://www.npmjs.com/package/@fleekhq/fleek-cli
+
 ```
 
 
@@ -64,7 +66,4 @@ A small number of bespoke CSS rules are provided for efficiency of repeated or g
 
 ## Just clone and go
 
-You can also get started with your own copy of this site cloned to your GitHub account and deployed to [Netlify](http://netlify.com/?utm_source=github&utm_medium=eleventail-pnh&utm_campaign=devex) with a configured CI/CD pipeline and HTTPS by clicking the button below and following the instructions.
-
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/eleventail)
+You can also get started with your own copy of this site cloned to your GitHub account and deployed to [Fleek.co](http://fleek.co?c=edmooney.dev) 
