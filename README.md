@@ -31,7 +31,7 @@ A project scaffold for quickly starting a site build with:
 npm install -g @fleekhq/fleek-cli
 
 # install netlify or local viewing
-[Netlify]https://www.npmjs.com/package/netlify-cli)
+npm install npm install netlify-cli -g
 
 
 # login to fleek
