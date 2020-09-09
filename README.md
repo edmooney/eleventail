@@ -21,7 +21,7 @@ A project scaffold for quickly starting a site build with:
 - [Fleek CLI](https://www.npmjs.com/package/@fleekhq/fleek-cli)
 
 
-## Running locally
+## Prereqs
 
 ```bash
 
