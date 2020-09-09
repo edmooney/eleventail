@@ -19,7 +19,7 @@ A project scaffold for quickly starting a site build with:
 ## Prerequisites
 
 - [Node and NPM](https://nodejs.org/)
-- [Netlify]https://www.npmjs.com/package/netlify-cli)
+- [Netlify](https://www.npmjs.com/package/netlify-cli)
 - [Fleek CLI](https://www.npmjs.com/package/@fleekhq/fleek-cli)
 
 
