@@ -1,4 +1,4 @@
-# ElevenTail
+# FleekyElevenTail
 
 A project scaffold for quickly starting a site build with:
 
