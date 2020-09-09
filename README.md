@@ -56,6 +56,8 @@ A small number of bespoke CSS rules are provided for efficiency of repeated or g
 
 ## When ready deploy to fleek.io
 
+Allow authorization to github in your account and add the FleekyElevenTail repo.
+
 Set up your fleek deployment like so:
 
 ![fleek-deploy](fleek-deploy.png)
