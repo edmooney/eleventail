@@ -18,16 +18,18 @@ A project scaffold for quickly starting a site build with:
 - [Netlify](https://www.npmjs.com/package/netlify-cli)
 
 
-## Prereqs
+## Running locally
 
 ```bash
 
-# install netlify or local viewing
-npm install npm install netlify-cli -g
+# install Netlify CLI globally
+npm install netlify-cli -g
 
-# set up the storge
-npm init
+# install the project dependencies
+npm install
 
+# run the build and server locally
+netlify dev
 ```
 
 ## Previewing the production build
