@@ -31,6 +31,9 @@ npm install -g @fleekhq/fleek-cli
 # login to fleek
 fleek login
 
+# get the api creds
+fleek whoami
+
 # set up the storge
 npm init
 
