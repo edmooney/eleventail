@@ -7,6 +7,7 @@ A project scaffold for quickly starting a site build with:
 - [PurgeCSS](https://www.purgecss.com/) for optimizing CSS output
 - [UglifyJS](https://www.npmjs.com/package/uglify-js) for a simple JS build pipeline
 - [Netlify](https://www.npmjs.com/package/netlify-cli) for local viewing
+- Fleek.co deploy instructions if you want to try the Dweb.
 
 ## Prerequisites
 
