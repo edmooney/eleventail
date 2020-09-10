@@ -50,7 +50,7 @@ While running/developing locally, the `npm run start` command will recompile the
 A small number of bespoke CSS rules are provided for efficiency of repeated or global classes. These reside in `src/site/_includes/css/tailwind.css`
 
 
-## When ready you can deploy to the Dweb @ fleek.io
+## When ready you can deploy to the Dweb @ fleek.co
 
 Allow authorization to github in your account and add the FleekyElevenTail repo.
 
