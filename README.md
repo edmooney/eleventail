@@ -1,5 +1,7 @@
 # FleekyElevenTail
 
+Forked project of ElevenTail with Fleek.co deployment instructions.
+
 A project scaffold for quickly starting a site build with:
 
 - [Eleventy](https://11ty.dev) for templates and site generation
